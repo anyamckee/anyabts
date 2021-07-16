@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin:0;
+  background-image: url("bg.jpg");
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
+  padding: 150px;
+  background-color: #a064db;
+}
+
+img {
+  max-width: 100%;
+}
+.toolbox {
+  width: 100%;
+  height: 100vh;
+  /* background-color: pink; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  transform:translateY(-7%)
+}
+.wax {
+  max-width: 30%;
+  transition-duration: 0.5s;
+}
+.sofie {
+  max-width: 35%;
+  transition-duration: 0.5s;
+}
+.squeegee {
+  max-width: 40%;
+  transition-duration: 0.5s;
+
+}
+.saw {
+  max-width: 40%;
+  transition-duration: 0.5s;
+}
+.wax:hover {
+  max-width: 40%;
+  transition-duration: 0.5s;
+}
+.sofie:hover {
+  max-width: 45%;
+  transition-duration: 0.5s;
+}
+.squeegee:hover {
+  max-width: 50%;
+  transition-duration: 0.5s;
+}
+.saw:hover {
+  max-width: 50%;
+  transition-duration: 0.5s;
+}
+.home {
+  width: 250px;
+  height: 200px;
+  background: lightgreen;
+  transform: translate(315%, 50%);
+  opacity: 0;
+}
